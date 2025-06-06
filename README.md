@@ -40,13 +40,33 @@ Optional arguments:
 
 With the recommended weights `α=1` and `β=1e6`, the system generates outputs that preserve the spatial structure of the content image and reflect the color, texture, and brushstroke patterns of the style image.
 
-<p align="center">
-  <img src="content.jpeg" height="200" style="vertical-align: middle;"/>
-  <span style="font-size: 24px; margin: 0 10px; vertical-align: middle;">+</span>
-  <img src="style.jpg" height="200" style="vertical-align: middle;"/>
-  <span style="font-size: 24px; margin: 0 10px; vertical-align: middle;">=</span>
-  <img src="output_vgg19.png" height="200" style="vertical-align: middle;"/>
+<p>
+  In our implementation, we applied NST to a natural landscape photo using <i>The Starry Night</i> by Van Gogh as the style image. 
+  The result successfully preserves the structure of the content while capturing the textures and color palette of the painting.
 </p>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="content.jpeg" height="200"/><br/>
+        <b>Content</b>
+      </td>
+      <td align="center" style="font-size: 24px; vertical-align: middle;">+</td>
+      <td align="center">
+        <img src="style.jpg" height="200"/><br/>
+        <b>Style</b>
+      </td>
+      <td align="center" style="font-size: 24px; vertical-align: middle;">=</td>
+      <td align="center">
+        <img src="output_vgg19.png" height="200"/><br/>
+        <b>Stylized Output</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
 
 ## 📄 Report Summary
 
