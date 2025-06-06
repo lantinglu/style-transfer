@@ -8,9 +8,9 @@ This project optimizes the original **Neural Style Transfer (NST)** method propo
 - Uses VGG-19 as a fixed feature extractor to calculate:
   - Content Loss (via MSE between feature maps)
   - Style Loss (via MSE between Gram matrices)
-- 🔄 Optimization with L-BFGS over 300 - 500 iterations
-- ✅ Compatible with both CPU and GPU
-- 🖼️ Output: stylized images balancing structure and texture
+- Optimization with L-BFGS over 300 - 500 iterations
+- Compatible with both CPU and GPU
+- Output: stylized images balancing structure and texture
 
 ## 🚀 Getting Started
 
@@ -69,9 +69,9 @@ With the recommended weights `α=1` and `β=1e6`, the system generates outputs t
 
 Our project confirms the following:
 
-- ✅ CNN feature layers successfully separate content (deep layers) and style (shallow layers)
-- ✅ The L-BFGS optimization converges stably in under 300 iterations
-- ✅ Adjusting the content/style weight ratio gives intuitive control over the result
+- CNN feature layers successfully separate content (deep layers) and style (shallow layers)
+- The L-BFGS optimization converges stably in about 300 iterations
+- Adjusting the content/style weight ratio gives intuitive control over the result
 
 We also compared VGG-19 and ResNet18 backbones and found that **VGG-19 consistently produced more coherent and visually pleasing stylized results**, confirming its effectiveness for perceptual tasks in style transfer.
 <center>
