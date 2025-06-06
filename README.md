@@ -49,21 +49,20 @@ With the recommended weights `α=1` and `β=1e6`, the system generates outputs t
   <table>
     <tr>
       <td align="center"><img src="content.jpeg" height="200"/></td>
-      <td></td>
+      <td align="center" style="font-size: 36px; vertical-align: middle;">+</td>
       <td align="center"><img src="style.jpg" height="200"/></td>
-      <td></td>
+      <td align="center" style="font-size: 36px; vertical-align: middle;">=</td>
       <td align="center"><img src="output_vgg19.png" height="200"/></td>
     </tr>
     <tr>
       <td align="center"><b>Content</b></td>
-      <td align="center" style="font-size: 24px;">+</td>
+      <td></td>
       <td align="center"><b>Style</b></td>
-      <td align="center" style="font-size: 24px;">=</td>
+      <td></td>
       <td align="center"><b>Stylized Output</b></td>
     </tr>
   </table>
 </div>
-
 
 ## 📄 Report Summary
 
