@@ -1,6 +1,6 @@
 # Optimization of Neural Style Transfer
 
-This project optimizes the original **Neural Style Transfer (NST)** method proposed by [Gatys et al., 2015](https://arxiv.org/abs/1508.06576), implemented in PyTorch from scratch. It synthesizes new images by combining the content of one image and the style of another, using the feature space of a pre-trained VGG-19 network.
+This project optimizes the original **Neural Style Transfer (NST)** method proposed by [Gatys et al., 2015](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf), implemented in PyTorch from scratch. It synthesizes new images by combining the content of one image and the style of another, using the feature space of a pre-trained VGG-19 network.
 
 ## Project Highlights
 
