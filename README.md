@@ -41,11 +41,11 @@ Optional arguments:
 With the recommended weights `α=1` and `β=1e6`, the system generates outputs that preserve the spatial structure of the content image and reflect the color, texture, and brushstroke patterns of the style image.
 
 <p align="center">
-  <img src="content.jpeg" width="150" style="vertical-align: middle;"/>
-  <span style="font-size: 24px; margin: 0 10px;">+</span>
-  <img src="style.jpg" width="200" style="vertical-align: middle;"/>
-  <span style="font-size: 24px; margin: 0 10px;">=</span>
-  <img src="output_vgg19.png" width="200" style="vertical-align: middle;"/>
+  <img src="content.jpeg" height="200" style="vertical-align: middle;"/>
+  <span style="font-size: 24px; margin: 0 10px; vertical-align: middle;">+</span>
+  <img src="style.jpg" height="200" style="vertical-align: middle;"/>
+  <span style="font-size: 24px; margin: 0 10px; vertical-align: middle;">=</span>
+  <img src="output_vgg19.png" height="200" style="vertical-align: middle;"/>
 </p>
 
 ## 📄 Report Summary
