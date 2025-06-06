@@ -48,24 +48,21 @@ With the recommended weights `α=1` and `β=1e6`, the system generates outputs t
 <div align="center">
   <table>
     <tr>
-      <td align="center">
-        <img src="content.jpeg" height="200"/><br/>
-        <b>Content</b>
-      </td>
-      <td align="center" style="font-size: 24px; vertical-align: middle;">+</td>
-      <td align="center">
-        <img src="style.jpg" height="200"/><br/>
-        <b>Style</b>
-      </td>
-      <td align="center" style="font-size: 24px; vertical-align: middle;">=</td>
-      <td align="center">
-        <img src="output_vgg19.png" height="200"/><br/>
-        <b>Stylized Output</b>
-      </td>
+      <td align="center"><img src="content.jpeg" height="200"/></td>
+      <td></td>
+      <td align="center"><img src="style.jpg" height="200"/></td>
+      <td></td>
+      <td align="center"><img src="output_vgg19.png" height="200"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Content</b></td>
+      <td align="center" style="font-size: 24px;">+</td>
+      <td align="center"><b>Style</b></td>
+      <td align="center" style="font-size: 24px;">=</td>
+      <td align="center"><b>Stylized Output</b></td>
     </tr>
   </table>
 </div>
-
 
 
 ## 📄 Report Summary
@@ -79,21 +76,24 @@ Our project confirms the following:
 We also compared VGG-19 and ResNet18 backbones and found that **VGG-19 consistently produced more coherent and visually pleasing stylized results**, confirming its effectiveness for perceptual tasks in style transfer.
 <center>
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="output_resnet18.png" width="200"/><br/>
-      <b>ResNet18 Output</b>
-    </td>
-    <td align="center" style="vertical-align:middle; width:80px;">
-      <b style="font-size: 24px;">V.S.</b>
-    </td>
-    <td align="center">
-      <img src="output_vgg19.png" width="200"/><br/>
-      <b>VGG19 Output</b>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="output_resnet18.png" width="200"/><br/>
+        <b>ResNet18 Output</b>
+      </td>
+      <td align="center" style="vertical-align:middle; width:80px;">
+        <b style="font-size: 24px;">V.S.</b>
+      </td>
+      <td align="center">
+        <img src="output_vgg19.png" width="200"/><br/>
+        <b>VGG19 Output</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 </center>
 
